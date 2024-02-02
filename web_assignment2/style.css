@@ -1,0 +1,32 @@
+.flex-item{
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    background-color: lightblue;
+    border: 5px solid yellowgreen;
+}
+
+.food-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:orange;
+}
+.food-item{
+    height: 220px;
+    margin: 30px;
+    width: 220px;
+    border: 5px solid red;
+    padding: 5px;
+}
+.food-item img{
+    height: 140px;
+    width: 100%;
+}
+.food-item h4{
+    text-align: center;
+}
+.food-item h6{
+    text-align:right;
+}
